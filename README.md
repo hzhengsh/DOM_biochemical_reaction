@@ -1,6 +1,6 @@
 # DOM_biochemical_reaction
 
-The purpose of this script is to quantitatively analyze key biochemical reactions including demethylation/methylation, decarboxylation/carboxylation, dehydration/hydration, dehydrogenation/hydrogenation, deamination/amination. The analysis is based on the quantification of alterations in functional groups, identified through changes in chemical formulas before and after the reactions, using the following equations for each chemical reaction:
+The purpose of these scripts is to quantitatively analyze key biochemical reactions including demethylation/methylation, decarboxylation/carboxylation, dehydration/hydration, dehydrogenation/hydrogenation, deamination/amination. The analysis is based on the quantification of alterations in functional groups, identified through changes in chemical formulas before and after the reactions, using the following equations for each chemical reaction:
 
 Demethylation: CcHhOoNnPpSs +a[H] →Cc-aHh-3aOoNnPpSs+a[CH3]
 
