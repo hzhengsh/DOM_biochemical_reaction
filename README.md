@@ -21,3 +21,8 @@ perl H2O_parser2_v2.pl -site1 site1-v2.txt  -site2 site2-v2.txt  -output H2O_par
 perl NH3O_parser2_v2.pl -site1 site1-v2.txt  -site2 site2-v2.txt  -output NH3O_parser.txt # parse the deamination
 perl CH2_parser2_v2.pl -site1 site1-v2.txt  -site2 site2-v2.txt  -output CH2_parser.txt # parse the demethylation
 ```
+
+## Files
+```parsed_out.zip``` is a zipped file containing the output of the scripts
+
+```site1-v2.txt``` and ```site2-v2.txt``` are the input of the scripts
