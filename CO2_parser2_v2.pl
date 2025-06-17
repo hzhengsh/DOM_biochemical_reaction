@@ -95,7 +95,7 @@ while(my $line = <$SITE2>){
 		
 			# decarboxylation: the reduction of carbon and oxygen atoms followed a stoichiometric ratio of 1:2
 			if($H1[$i] == $fields[4] && $P1[$i] == $fields[8] && $S1[$i] == $fields[7] && $N1[$i] == $fields[6] && ($C1[$i]-$fields[3])/($O1[$i]-$fields[5]) == 0.5){
-				my $c_diff = $C1[$i]-$fields[2]; # number of reduced carbon atoms
+				my $c_diff = $C1[$i]-$fields[3]; # number of reduced carbon atoms
 				
 				# write to the output file
 				print $OUT "$sample1[$i]	$fields[0]	$mass1[$i]	$fields[2]	$El_comp_1[$i]	$fields[10]	$Class_1[$i]	$fields[11]	$MolForm_1[$i]	$fields[9]	$c_diff\n"; 
